@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import cisco7911 from "@/assets/cisco-7911.jpg.asset.json";
-import cisco7841 from "@/assets/cisco-7841.webp.asset.json";
+import cisco7911 from "@/assets/cisco-7911.jpg";
+import cisco7841 from "@/assets/cisco-7841.webp";
 import desktopImg from "@/assets/desktop-pc.jpg";
 import routerImg from "@/assets/cisco-router.jpg";
 import switchImg from "@/assets/cisco-switch.jpg";
@@ -259,7 +259,7 @@ function QuotePage() {
       features: ["خط واحد", "شاشة LCD واضحة", "جودة صوت ممتازة", "مناسب لمعظم المستخدمين"],
       qty: 1,
       unit: 900,
-      image: cisco7911.url,
+      image: cisco7911,
       badge: "7911",
     },
     {
@@ -273,7 +273,7 @@ function QuotePage() {
       ],
       qty: 1,
       unit: 1800,
-      image: cisco7841.url,
+      image: cisco7841,
       badge: "7841 · HD Voice",
     },
   ];
